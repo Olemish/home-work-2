@@ -11,57 +11,194 @@
   --header-second-text-color: #212121;
   --header-third-text-color: #757575;
   --footer-text-color: #ffffff;
-  --footer-second-text-color: rgba(255, 255, 255, 0.6);
+  --footer-second-link-color: rgba(255, 255, 255, 0.6);
   --header-mail-color:#2196F3;
-}
+  --logo-color:#000000;
+  --logo-span-color:#2196F3;
+  --link-color:#212121;
+  --second-link-color:#757575;
+  --link-accent: #2196F3;
+  }
 body {
   font-family: Roboto; sans-serif;
 }
 .list{
     list-style: none;
-}
-
-.link{
     text-decoration: none;
 }
 
-.header-list{
+.link{
+text-decoration: none;
+font-family: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--header-second-text-color);
+color: var(--link-color)
+}
+
+.link-contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--second-link-color);
+}
+
+.footer-link{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-second-link-color);
+background-color: #2F303A;
+}
+
+.link:hover,
+.link:focus{
+color: var(--link-accent);
 }
 
 .header-navigation{
-font-family: Raleway;
+font-family: inherit;
+text-decoration: none;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--header-second-text-color);
 }
+.logo{
+font-family: Raleway;
+text-decoration: none;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--logo-color);
+}
+.logo-span{
+font-family: Raleway;
+text-decoration: none;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--logo-span-color);
+}
 
 .header-btn{
-    font-family: inherit;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
 color:var(--first-btn-color);
 }
-.header-mail{
+
+
+.main-title{
+ font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--main-title-color);
+background-color: var(--third-text-color);
+}
+
+.title-btn{
+  font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--second-btn-color);
+background-color: var(--third-text-color);
+}
+
+.title-specification{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--third-text-color);
+}
+.content-specification{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--main-text-color)
+}
+.title-work{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+
+.name-mamber{
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14px;
-letter-spacing: 0.02em;
-color: var(--header-mail-color);
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var( --second-title-color);
 }
-.header-tel{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14px;
-letter-spacing: 0.02em;
-color:var(--header-third-text-color);
+
+.position-mamber{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
 }
+.address{
+  font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-text-color);
+background-color:  #2F303A;
+}
+
+.visually-hidden{
+   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.title-work{
+font-weight: bold;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--third-text-color);
+}
+
+.name-work{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+
 
