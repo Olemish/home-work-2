@@ -1,0 +1,67 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --third-text-color: #212121;
+  --accent-color: #2196f3;
+  --first-btn-color: #2196f3;
+  --second-btn-color: #ffffff;
+  --header-text-color: #ffffff;
+  --header-second-text-color: #212121;
+  --header-third-text-color: #757575;
+  --footer-text-color: #ffffff;
+  --footer-second-text-color: rgba(255, 255, 255, 0.6);
+  --header-mail-color:#2196F3;
+}
+body {
+  font-family: Roboto; sans-serif;
+}
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-second-text-color);
+}
+
+.header-navigation{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--header-second-text-color);
+}
+
+.header-btn{
+    font-family: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color:var(--first-btn-color);
+}
+.header-mail{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: var(--header-mail-color);
+}
+.header-tel{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color:var(--header-third-text-color);
+}
+
