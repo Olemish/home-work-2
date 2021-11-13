@@ -7,6 +7,7 @@
   --accent-color: #2196f3;
   --first-btn-color: #2196f3;
   --second-btn-color: #ffffff;
+  --third-btn-color: #212121;
   --header-text-color: #ffffff;
   --header-second-text-color: #212121;
   --header-third-text-color: #757575;
@@ -123,6 +124,23 @@ body {
   letter-spacing: 0.06em;
   color: var(--second-btn-color);
   background-color: var(--third-text-color);
+}
+
+.title-btn-portfolio {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-btn-color);
+}
+
+.title-btn-portfolio:hover,
+.title-btn-portfolio:focus {
+  color: var(--second-btn-color);
+  background-color: var(--first-btn-color);
 }
 
 .title-specification {
