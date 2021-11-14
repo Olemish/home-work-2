@@ -151,14 +151,25 @@ body {
   text-transform: uppercase;
   color: var(--third-text-color);
 }
+
 .content-specification {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
 .title-work {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.title-team {
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -204,13 +215,6 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.title-work {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--third-text-color);
 }
 
 .name-work {
